@@ -27,6 +27,6 @@ evnvironment {
         }
       stage ('Deploy2_kubernetes')
         steps{
-          sh kubectl apply -f bitcoin-deployment.yaml
+          sh kubectl apply -f bitcoin_deployment.yaml
           sh kubectl apply -f bitcoin-service.yaml
         }
