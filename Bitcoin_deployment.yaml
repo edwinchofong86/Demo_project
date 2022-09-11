@@ -16,7 +16,7 @@ spec:
         name:  Bitcoin_core22
     spec:
       containers:
-      - image:  edwinchofong86/bitcoin-core:22.0
+      - image: lightninglabs/bitcoin-core:22-alpine #image sourced from lightninglabs repo on dockerhub
         name:  bitcoin_core22
         resources:
           requests:
